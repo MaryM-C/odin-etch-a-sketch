@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+body {
+    font-family:'Jersey 20', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #473732;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+button {
+    font-family: Arial;
+    padding: 5px;
+    margin: 5px;
+    background-color: #e5e2e3;
+    color: #473732;
+}
+
+h1,h2 {
+    text-align: center;
+    color: #e5e2e3;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.controlsContainer {
+    margin-bottom: 10px;
+}
+
+#grid {
+    flex-wrap: wrap;
+    width: 550px;
+    height: auto;
+    border: solid 2px #e5e2e3;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.cell {
+    flex-grow:1;
+    aspect-ratio: 1/1;
+    margin: 0.5px;
+}
+
+
