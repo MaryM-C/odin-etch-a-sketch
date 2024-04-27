@@ -12,6 +12,10 @@ body {
     justify-content:center;
 }
 
+.buttonContainer {
+    flex-direction: row;
+}
+
 button {
     font-family: Arial;
     padding: 5px;
