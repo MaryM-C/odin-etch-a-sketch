@@ -1,6 +1,6 @@
 
 const gridContainer = document.getElementById('grid');
-const btnUpdateGrid = document.getElementById('updateGrid');
+const btnUpdateGrid = document.getElementById('btnUpdateGrid');
 let rowNumber = 16;
 
 function createGrid(rowNumber) {
